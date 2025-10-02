@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Paul Mitchell School Modesto 360 Virtual Tour</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-welcome-area">
+        <li class="text">Welcome Area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-customer-retail--waiting-area">
+        <li class="text">Customer Retail / Waiting area</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-barber-clinic-floor">
+        <li class="text">Barber Clinic Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-main-walkway">
+        <li class="text">Main Walkway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-color-bar">
+        <li class="text">Color Bar</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-cosmetology-clinic-floor">
+        <li class="text">Cosmetology Clinic floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-back-cosmetology-clinic-floor--pedicure-stations">
+        <li class="text">Back Cosmetology Clinic Floor / Pedicure Stations</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-manicure-clinic-floor">
+        <li class="text">Manicure Clinic Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-guest-artist">
+        <li class="text">Guest Artist</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-south-east-hallway-student-lockers">
+        <li class="text">South East Hallway (Student Lockers)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-barber--manicurist-theory-classroom">
+        <li class="text">Barber / Manicurist Theory Classroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-south-east-hallway-esthetician-entrance">
+        <li class="text">South East Hallway (Esthetician Entrance)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-esthetician-main-hallway">
+        <li class="text">Esthetician Main Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-esthetician-clinic-floor">
+        <li class="text">Esthetician Clinic Floor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-esthetician-north-west-hallway">
+        <li class="text">Esthetician North West Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-esthetician-theory-classroom">
+        <li class="text">Esthetician Theory Classroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-wax-room">
+        <li class="text">Wax Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-esthetician-north-east-hallway-">
+        <li class="text">Esthetician North East Hallway </li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-admissions-office">
+        <li class="text">Admissions Office</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-esthetician-core-classroom">
+        <li class="text">Esthetician Core Classroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-cosmetology-core-entrance--manicurist-core-entrance">
+        <li class="text">Cosmetology Core Entrance / Manicurist Core Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-student-hallway">
+        <li class="text">Student Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-avanti-breakroom">
+        <li class="text">Avanti Breakroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-student-lunch-area--breakroom">
+        <li class="text">Student Lunch Area / Breakroom</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
