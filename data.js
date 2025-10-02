@@ -24,35 +24,41 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": 0.13962713174021957,
-        "pitch": 0.04323440701564607,
-        "fov": 1.3365071038314758
+        "yaw": 0.23187945776496122,
+        "pitch": 0.041422993990426704,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": -0.4198237290169189,
-          "pitch": 0.017826764067898182,
+          "yaw": 0.08604826294835632,
+          "pitch": -0.023270614108188425,
+          "rotation": 0,
+          "target": "3-main-walkway"
+        },
+        {
+          "yaw": -0.4231616369197777,
+          "pitch": -0.024977978898874653,
           "rotation": 0,
           "target": "2-barber-clinic-floor"
         },
         {
-          "yaw": -1.6591986168320574,
-          "pitch": 0.022664218054957885,
+          "yaw": -1.630023561034065,
+          "pitch": -0.0010171961509239935,
           "rotation": 0,
           "target": "1-customer-retail--waiting-area"
         },
         {
-          "yaw": 1.639662618735528,
-          "pitch": -0.008431779648278237,
+          "yaw": 1.6337013004430583,
+          "pitch": -0.03277359744666164,
           "rotation": 0,
-          "target": "23-student-lunch-area--breakroom"
+          "target": "20-cosmetology-core-entrance--manicurist-core-entrance"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "1-customer-retail--waiting-area",
-      "name": "Customer Retail / Waiting area",
+      "name": "Customer Retail / Waiting Area",
       "levels": [
         {
           "tileSize": 256,
@@ -84,16 +90,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.006188093978405362,
-          "pitch": -0.003045363990462846,
+          "yaw": 0,
+          "pitch": 0,
           "rotation": 0,
           "target": "2-barber-clinic-floor"
         },
         {
-          "yaw": 1.7221932918113954,
-          "pitch": 0.034142146659693395,
+          "yaw": 1.7255425266087263,
+          "pitch": 0.01507182568006904,
           "rotation": 0,
           "target": "0-welcome-area"
+        },
+        {
+          "yaw": 0.4336122453703659,
+          "pitch": -0.008321044193417393,
+          "rotation": 0,
+          "target": "3-main-walkway"
         }
       ],
       "infoHotspots": []
@@ -126,28 +138,34 @@ var APP_DATA = {
       ],
       "faceSize": 3600,
       "initialViewParameters": {
-        "yaw": 0.6847035801204697,
-        "pitch": 0.15414005979491208,
-        "fov": 1.3365071038314758
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -0.042282636589984435,
-          "pitch": -0.011826608118774118,
+          "yaw": -0.008146162632382214,
+          "pitch": -0.023238418782920434,
           "rotation": 0,
           "target": "3-main-walkway"
         },
         {
-          "yaw": 1.6497165262740374,
-          "pitch": -0.02455833909613858,
+          "yaw": 1.6498033085018093,
+          "pitch": -0.0254447649543863,
           "rotation": 0,
           "target": "1-customer-retail--waiting-area"
         },
         {
-          "yaw": 1.3373774427689007,
-          "pitch": -0.02189288331342354,
+          "yaw": 1.3274672977979236,
+          "pitch": -0.029569847716846454,
           "rotation": 0,
           "target": "0-welcome-area"
+        },
+        {
+          "yaw": -0.6858310099376723,
+          "pitch": -0.028476609139911346,
+          "rotation": 0,
+          "target": "4-color-bar"
         }
       ],
       "infoHotspots": []
@@ -186,30 +204,36 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.40341346377461207,
-          "pitch": -0.003494176337284216,
+          "yaw": 0.38298459343310043,
+          "pitch": -0.018532731464066643,
           "rotation": 0,
           "target": "4-color-bar"
         },
         {
-          "yaw": -1.510410988045237,
-          "pitch": -0.021387110075774984,
+          "yaw": -1.5837972953025847,
+          "pitch": -0.029928723185161488,
           "rotation": 0,
           "target": "2-barber-clinic-floor"
         },
         {
-          "yaw": -3.0020750916462564,
-          "pitch": -0.01744872740574266,
+          "yaw": -2.729451466902903,
+          "pitch": -0.04787498387615052,
+          "rotation": 0,
+          "target": "1-customer-retail--waiting-area"
+        },
+        {
+          "yaw": -3.018588998132392,
+          "pitch": -0.04079288249159241,
           "rotation": 0,
           "target": "0-welcome-area"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 1.4138167779305153,
-          "pitch": -0.10476886734073076,
-          "title": "the WASH HOUSE",
-          "text": "Step into the Wash House — this is where every service begins. Here, Future Professionals shampoo, condition, and prep hair before cutting, coloring, or styling. The environment is designed for relaxation: dim lighting, calming music, and high-quality products. Add-ons like scalp treatments, bond-repair systems, or revitalizing masks help restore hair health before the next step."
+          "yaw": 1.41360906127073,
+          "pitch": -0.03940439877420587,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(103, 115, 131);\">the WASH HOUSE</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgb(58, 68, 84);\">Step into the Wash House — this is where every service begins. Here, Future Professionals shampoo, condition, and prep hair before cutting, coloring, or styling. The environment is designed for relaxation: dim lighting, calming music, and high-quality products. Add-ons like scalp treatments, bond-repair systems, or revitalizing masks help restore hair health before the next step.</span>"
         }
       ]
     },
@@ -247,23 +271,48 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -2.6866323570152595,
-          "pitch": -0.0012797774900654701,
+          "yaw": -0.07850767982527529,
+          "pitch": -0.03429037192779916,
+          "rotation": 0,
+          "target": "5-cosmetology-clinic-floor"
+        },
+        {
+          "yaw": 1.3014235197804993,
+          "pitch": -0.028963731717222885,
+          "rotation": 0,
+          "target": "9-south-east-hallway-student-lockers"
+        },
+        {
+          "yaw": -2.7629524629647797,
+          "pitch": 0.002619569535546873,
           "rotation": 0,
           "target": "3-main-walkway"
         },
         {
-          "yaw": -0.08985169639948687,
-          "pitch": -0.014719629103984389,
+          "yaw": 0.4536690646910877,
+          "pitch": -0.03819814042520875,
           "rotation": 0,
-          "target": "5-cosmetology-clinic-floor"
+          "target": "7-manicure-clinic-floor"
+        },
+        {
+          "yaw": -2.377128474266126,
+          "pitch": 0.0034892157207515595,
+          "rotation": 0,
+          "target": "2-barber-clinic-floor"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -2.106625705433988,
+          "pitch": -0.061271544372662134,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(103, 115, 131);\">the COLOR BAR</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgb(58, 68, 84);\">The Color Bar is where creativity meets precision. In this station, students apply single-process color, balayage, foils, toners, or corrective color — all under instructor supervision. It’s fully stocked with a wide spectrum of professional color lines, developer formulas, mixing bowls, and color-safe tools. This is the heart of modern hair transformation.</span>"
+        }
+      ]
     },
     {
       "id": "5-cosmetology-clinic-floor",
-      "name": "Cosmetology Clinic floor",
+      "name": "Cosmetology Clinic Floor",
       "levels": [
         {
           "tileSize": 256,
@@ -289,22 +338,22 @@ var APP_DATA = {
       ],
       "faceSize": 3531.5,
       "initialViewParameters": {
-        "yaw": 3.1250626245784723,
-        "pitch": 0.06341945120685466,
-        "fov": 1.3365071038314758
+        "yaw": 3.117124175445791,
+        "pitch": 0.022126698720583704,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": 0.0071179125493578965,
-          "pitch": -0.014144932300482083,
-          "rotation": 0,
-          "target": "4-color-bar"
-        },
-        {
-          "yaw": 3.110097601518995,
-          "pitch": -0.025503192050635448,
+          "yaw": 3.1230354251825947,
+          "pitch": -0.014082090215989496,
           "rotation": 0,
           "target": "6-back-cosmetology-clinic-floor--pedicure-stations"
+        },
+        {
+          "yaw": 0.004862446153602207,
+          "pitch": -0.02356601992857499,
+          "rotation": 0,
+          "target": "4-color-bar"
         }
       ],
       "infoHotspots": []
@@ -337,20 +386,20 @@ var APP_DATA = {
       ],
       "faceSize": 3549,
       "initialViewParameters": {
-        "yaw": -0.7290106029484029,
-        "pitch": 0.022557081921206645,
-        "fov": 1.3365071038314758
+        "yaw": -0.7440418964700246,
+        "pitch": 0.08089325473661901,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": 0.041578084428163464,
-          "pitch": -0.024824547617081194,
+          "yaw": 0.04321372363642517,
+          "pitch": -0.03325136935289663,
           "rotation": 0,
           "target": "5-cosmetology-clinic-floor"
         },
         {
-          "yaw": -1.537006859150356,
-          "pitch": -0.02633028555332828,
+          "yaw": -1.5279365673187097,
+          "pitch": -0.04073053920740399,
           "rotation": 0,
           "target": "7-manicure-clinic-floor"
         }
@@ -385,22 +434,28 @@ var APP_DATA = {
       ],
       "faceSize": 3612.5,
       "initialViewParameters": {
-        "yaw": -0.813685298379518,
-        "pitch": 0.09809330232747548,
-        "fov": 1.3365071038314758
+        "yaw": 0.8700243683328246,
+        "pitch": 0.01715991498977587,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": 1.5831122948505278,
-          "pitch": -0.03171297018986152,
+          "yaw": 1.5786887342614522,
+          "pitch": -0.05232444776209988,
           "rotation": 0,
           "target": "6-back-cosmetology-clinic-floor--pedicure-stations"
         },
         {
-          "yaw": -1.35961519898499,
-          "pitch": 0.02414374991196766,
+          "yaw": -1.4740431097480844,
+          "pitch": 0.01802703998395927,
           "rotation": 0,
           "target": "8-guest-artist"
+        },
+        {
+          "yaw": 0.3813481130785661,
+          "pitch": -0.05169294091666998,
+          "rotation": 0,
+          "target": "4-color-bar"
         }
       ],
       "infoHotspots": []
@@ -433,30 +488,30 @@ var APP_DATA = {
       ],
       "faceSize": 3549,
       "initialViewParameters": {
-        "yaw": -3.129628440378875,
-        "pitch": 0.1085154828313506,
-        "fov": 1.3365071038314758
+        "yaw": 3.134715379986593,
+        "pitch": 0.04417338448496011,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": -2.0615102855738723,
-          "pitch": -0.004893919631886234,
+          "yaw": -2.065380369992324,
+          "pitch": -0.0063464948404465815,
           "rotation": 0,
           "target": "9-south-east-hallway-student-lockers"
         },
         {
-          "yaw": 0.7258857467493378,
-          "pitch": -0.014110341185789466,
+          "yaw": 0.7086481918525962,
+          "pitch": -0.0268888819366655,
           "rotation": 0,
           "target": "7-manicure-clinic-floor"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 3.0458373572424087,
-          "pitch": -0.16777174979038278,
-          "title": "Guest Artist",
-          "text": "Here, educators and industry pros teach, demo, and inspire with special classes, trend workshops, and elevated technique sessions. Students get front-row seats to high-level instruction and live demonstrations on cutting-edge styles, editorial looks, and advanced color methods."
+          "yaw": 3.0492122243532904,
+          "pitch": -0.14937082328239626,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(103, 115, 131);\">Guest Artist</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgb(58, 68, 84);\">Here, educators and industry pros teach, demo, and inspire with special classes, trend workshops, and elevated technique sessions. Students get front-row seats to high-level instruction and live demonstrations on cutting-edge styles, editorial looks, and advanced color methods.</span>"
         }
       ]
     },
@@ -488,28 +543,34 @@ var APP_DATA = {
       ],
       "faceSize": 3611,
       "initialViewParameters": {
-        "yaw": -0.9493371639446391,
-        "pitch": 0.09520159692888264,
-        "fov": 1.3365071038314758
+        "yaw": -0.7830296267880179,
+        "pitch": 0.08503454764121088,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": -0.8277287121977643,
-          "pitch": 0.011951597926451285,
+          "yaw": 0.03071025531348681,
+          "pitch": -0.02103271914034721,
           "rotation": 0,
-          "target": "10-barber--manicurist-theory-classroom"
+          "target": "4-color-bar"
         },
         {
-          "yaw": -1.571733220389504,
-          "pitch": 0.015747172635515838,
+          "yaw": 2.004357792803246,
+          "pitch": -0.03450613788926837,
+          "rotation": 0,
+          "target": "8-guest-artist"
+        },
+        {
+          "yaw": -1.5578602922220988,
+          "pitch": -0.009949384202700529,
           "rotation": 0,
           "target": "11-south-east-hallway-esthetician-entrance"
         },
         {
-          "yaw": 1.978916826577919,
-          "pitch": 0.0011233283054856713,
+          "yaw": -0.8386770157305321,
+          "pitch": -0.01202028533272781,
           "rotation": 0,
-          "target": "8-guest-artist"
+          "target": "10-barber--manicurist-theory-classroom"
         }
       ],
       "infoHotspots": []
@@ -542,14 +603,14 @@ var APP_DATA = {
       ],
       "faceSize": 3580,
       "initialViewParameters": {
-        "yaw": -0.41619389855249267,
-        "pitch": 0.22369106238529923,
-        "fov": 1.3365071038314758
+        "yaw": -0.6228785434390005,
+        "pitch": 0.0708621230343276,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": 2.3779779867021027,
-          "pitch": -0.014448039928669942,
+          "yaw": 2.3851672674906395,
+          "pitch": -0.012592207259768173,
           "rotation": 0,
           "target": "9-south-east-hallway-student-lockers"
         }
@@ -584,26 +645,26 @@ var APP_DATA = {
       ],
       "faceSize": 3582,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 0.049521523621043784,
+        "pitch": 0.0059930770318281645,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": 0.020998215440457102,
-          "pitch": -0.0065780065759302175,
-          "rotation": 0,
-          "target": "20-cosmetology-core-entrance--manicurist-core-entrance"
-        },
-        {
-          "yaw": -1.6033939496574483,
-          "pitch": -0.008896306944283339,
+          "yaw": -1.5648074391380042,
+          "pitch": -0.013229260747092297,
           "rotation": 0,
           "target": "12-esthetician-main-hallway"
         },
         {
-          "yaw": 3.1061655751291557,
-          "pitch": -0.011701465336013683,
+          "yaw": 0.011132635446699624,
+          "pitch": -0.02038274777978799,
+          "rotation": 0,
+          "target": "20-cosmetology-core-entrance--manicurist-core-entrance"
+        },
+        {
+          "yaw": 3.1009124143620674,
+          "pitch": -0.03815554359781892,
           "rotation": 0,
           "target": "9-south-east-hallway-student-lockers"
         }
@@ -638,34 +699,34 @@ var APP_DATA = {
       ],
       "faceSize": 3672,
       "initialViewParameters": {
-        "yaw": -3.0707827739400138,
-        "pitch": 0.009521564586485454,
-        "fov": 1.3365071038314758
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -3.132837310993704,
-          "pitch": -0.06570882729595517,
+          "yaw": 0.031055931530977077,
+          "pitch": -0.00899358536125483,
           "rotation": 0,
-          "target": "14-esthetician-north-west-hallway"
+          "target": "17-esthetician-north-east-hallway"
         },
         {
-          "yaw": 2.684095565774798,
-          "pitch": -0.05306114939617679,
+          "yaw": 1.550081086367772,
+          "pitch": -0.02423354103047437,
+          "rotation": 0,
+          "target": "11-south-east-hallway-esthetician-entrance"
+        },
+        {
+          "yaw": 2.6934600950010363,
+          "pitch": -0.01602173561961706,
           "rotation": 0,
           "target": "13-esthetician-clinic-floor"
         },
         {
-          "yaw": 0.03032295796233697,
-          "pitch": 0.011492863680095056,
+          "yaw": -3.128754357541096,
+          "pitch": -0.07085204419620084,
           "rotation": 0,
-          "target": "17-esthetician-north-east-hallway-"
-        },
-        {
-          "yaw": 1.5475066886499365,
-          "pitch": -0.008345258250052723,
-          "rotation": 0,
-          "target": "11-south-east-hallway-esthetician-entrance"
+          "target": "14-esthetician-north-west-hallway"
         }
       ],
       "infoHotspots": []
@@ -704,14 +765,14 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.8042524493061158,
-          "pitch": 0.03983959354506972,
+          "yaw": 0.778562919149703,
+          "pitch": 0.005196400931566814,
           "rotation": 0,
           "target": "14-esthetician-north-west-hallway"
         },
         {
-          "yaw": 2.8016087618062206,
-          "pitch": -0.023920168850352752,
+          "yaw": 2.7993662552059515,
+          "pitch": -0.044451907515885125,
           "rotation": 0,
           "target": "12-esthetician-main-hallway"
         }
@@ -746,34 +807,22 @@ var APP_DATA = {
       ],
       "faceSize": 3558.5,
       "initialViewParameters": {
-        "yaw": -3.0488368282111225,
-        "pitch": 0.04952525154276444,
-        "fov": 1.3365071038314758
+        "yaw": -2.80349533403969,
+        "pitch": 0.05133384534207508,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": -3.071029418265036,
-          "pitch": 0.016224868762648725,
+          "yaw": -2.8287785372297165,
+          "pitch": 0.014499216758528277,
           "rotation": 0,
           "target": "16-wax-room"
         },
         {
-          "yaw": -1.0128907827256697,
-          "pitch": 0.010007790548032247,
+          "yaw": -1.0117146251790814,
+          "pitch": 0.012160605494141663,
           "rotation": 0,
           "target": "15-esthetician-theory-classroom"
-        },
-        {
-          "yaw": 0.033268126347186566,
-          "pitch": -0.00386926102279439,
-          "rotation": 0,
-          "target": "12-esthetician-main-hallway"
-        },
-        {
-          "yaw": 1.7069300963583744,
-          "pitch": 0.05639080688431086,
-          "rotation": 0,
-          "target": "13-esthetician-clinic-floor"
         }
       ],
       "infoHotspots": []
@@ -812,16 +861,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.014796806634564064,
-          "pitch": -0.01558985097864607,
+          "yaw": -0.11088942251772238,
+          "pitch": -0.03017146080659927,
           "rotation": 0,
           "target": "14-esthetician-north-west-hallway"
         },
         {
-          "yaw": -2.8265275043627742,
-          "pitch": -0.00002221931583079595,
+          "yaw": -2.8196069710791534,
+          "pitch": -0.0032681389731159527,
           "rotation": 0,
-          "target": "17-esthetician-north-east-hallway-"
+          "target": "17-esthetician-north-east-hallway"
         }
       ],
       "infoHotspots": []
@@ -854,30 +903,30 @@ var APP_DATA = {
       ],
       "faceSize": 3622,
       "initialViewParameters": {
-        "yaw": -0.4509742702265278,
-        "pitch": 0.1283215555515973,
-        "fov": 1.3365071038314758
+        "yaw": -0.47263428695072385,
+        "pitch": 0.07187443907769442,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": 2.9469835325253397,
-          "pitch": 0.01914919273094995,
+          "yaw": 3.01461381285446,
+          "pitch": 0.08515083890499575,
           "rotation": 0,
           "target": "14-esthetician-north-west-hallway"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.45180570011912025,
-          "pitch": -0.008218115481842148,
-          "title": "Wax Room",
-          "text": "The Wax Room is a quiet, controlled space for hair removal and skin services. Students practice waxing (legs, brows, face, body), post-wax care, and skin preparation techniques. It’s equipped with wax heaters, consumables, safety supplies, and hygiene stations to ensure clean, safe services."
+          "yaw": -0.47263428695072385,
+          "pitch": 0.07187443907769442,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(103, 115, 131);\">Wax Room</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgb(58, 68, 84);\">The Wax Room is a quiet, controlled space for hair removal and skin services. Students practice waxing (legs, brows, face, body), post-wax care, and skin preparation techniques. It’s equipped with wax heaters, consumables, safety supplies, and hygiene stations to ensure clean, safe services.</span>"
         }
       ]
     },
     {
-      "id": "17-esthetician-north-east-hallway-",
-      "name": "Esthetician North East Hallway ",
+      "id": "17-esthetician-north-east-hallway",
+      "name": "Esthetician North East Hallway",
       "levels": [
         {
           "tileSize": 256,
@@ -903,32 +952,32 @@ var APP_DATA = {
       ],
       "faceSize": 3537.5,
       "initialViewParameters": {
-        "yaw": -3.13841932767707,
-        "pitch": 0.0613517891387243,
-        "fov": 1.3365071038314758
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.023410652750033734,
-          "pitch": -0.005684607434783828,
-          "rotation": 0,
-          "target": "12-esthetician-main-hallway"
-        },
-        {
-          "yaw": 0.9672889483277416,
-          "pitch": 0.06616452754993496,
+          "yaw": 0.9727969903665112,
+          "pitch": 0.007816829643848777,
           "rotation": 0,
           "target": "15-esthetician-theory-classroom"
         },
         {
-          "yaw": 1.9977862248678315,
-          "pitch": 0.06345855205184492,
+          "yaw": 0.016901313884426727,
+          "pitch": -0.010329953621535992,
+          "rotation": 0,
+          "target": "12-esthetician-main-hallway"
+        },
+        {
+          "yaw": 2.0352227967720715,
+          "pitch": 0.008547115687203899,
           "rotation": 0,
           "target": "18-admissions-office"
         },
         {
-          "yaw": 3.0724263618372802,
-          "pitch": -0.01115578953248253,
+          "yaw": 3.0760414467923685,
+          "pitch": -0.023344972673973174,
           "rotation": 0,
           "target": "19-esthetician-core-classroom"
         }
@@ -963,16 +1012,16 @@ var APP_DATA = {
       ],
       "faceSize": 3579.5,
       "initialViewParameters": {
-        "yaw": 2.6366676804778653,
-        "pitch": 0.11550430146322377,
-        "fov": 1.3365071038314758
+        "yaw": 2.7994995166433805,
+        "pitch": 0.06949251897569475,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": 2.4788018463471255,
-          "pitch": 0.020055695164167275,
+          "yaw": 2.4759188068394895,
+          "pitch": -0.004363505129333589,
           "rotation": 0,
-          "target": "17-esthetician-north-east-hallway-"
+          "target": "17-esthetician-north-east-hallway"
         }
       ],
       "infoHotspots": []
@@ -1001,16 +1050,16 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -0.4515870394566548,
-        "pitch": 0.16009493820850196,
-        "fov": 1.3365071038314758
+        "yaw": -0.45491893620164703,
+        "pitch": 0.1356503498085928,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": -1.606314916969641,
-          "pitch": 0.024371846528531194,
+          "yaw": -1.6053752420343361,
+          "pitch": -0.018783091335745183,
           "rotation": 0,
-          "target": "17-esthetician-north-east-hallway-"
+          "target": "17-esthetician-north-east-hallway"
         }
       ],
       "infoHotspots": []
@@ -1043,36 +1092,36 @@ var APP_DATA = {
       ],
       "faceSize": 2571.5,
       "initialViewParameters": {
-        "yaw": -1.5269322563418548,
-        "pitch": 0.01661595030817331,
-        "fov": 1.3365071038314758
+        "yaw": -1.5317595255383072,
+        "pitch": -0.01478167981383649,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": 1.5425817418418841,
-          "pitch": 0.0026228252681086417,
-          "rotation": 0,
-          "target": "11-south-east-hallway-esthetician-entrance"
-        },
-        {
-          "yaw": -1.5523812756150956,
-          "pitch": -0.005609839057942878,
+          "yaw": -1.5621272284790813,
+          "pitch": -0.029388293222757156,
           "rotation": 0,
           "target": "21-student-hallway"
+        },
+        {
+          "yaw": 1.5358082382281903,
+          "pitch": -0.026033342017779404,
+          "rotation": 0,
+          "target": "11-south-east-hallway-esthetician-entrance"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": 0.5745729321316393,
-          "pitch": 0.007200977529800312,
-          "title": "Cosmetology Classroom",
-          "text": "This is the main hub of a student’s journey — the Cosmetology Classroom. Here, future stylists train in cutting, styling, chemical services (color, texture), haircutting theory, and more. Every station includes mirrors, styling tools, product back-bars, and work surfaces. Instructors circulate to coach, demo, and correct technique."
+          "yaw": 0.5975762566685177,
+          "pitch": -0.020393144682358866,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(103, 115, 131);\">Cosmetology Classroom</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgb(58, 68, 84);\">This is the main hub of a student’s journey — the Cosmetology Classroom. Here, future stylists train in cutting, styling, chemical services (color, texture), haircutting theory, and more. Every station includes mirrors, styling tools, product back-bars, and work surfaces. Instructors circulate to coach, demo, and correct technique.</span>"
         },
         {
-          "yaw": -0.5302398439372453,
-          "pitch": -0.00346987400823906,
-          "title": "Manicuring Classroom",
-          "text": "In the Manicuring Classroom, students learn nail artistry from base to tip. You’ll see stations equipped for manicures, pedicures, gel and acrylic work, nail art, hand care, sanitizing stations, and retail nail-care displays. It’s a clinical but creative environment where precision meets design."
+          "yaw": -0.4973760607083655,
+          "pitch": -0.03694947029798179,
+          "title": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(103, 115, 131);\">Manicuring Classroom</span>",
+          "text": "<span style=\"font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; background-color: rgb(58, 68, 84);\">In the Manicuring Classroom, students learn nail artistry from base to tip. You’ll see stations equipped for manicures, pedicures, gel and acrylic work, nail art, hand care, sanitizing stations, and retail nail-care displays. It’s a clinical but creative environment where precision meets design.</span>"
         }
       ]
     },
@@ -1104,28 +1153,28 @@ var APP_DATA = {
       ],
       "faceSize": 3562.5,
       "initialViewParameters": {
-        "yaw": 0.7674666862057045,
-        "pitch": 0.03131588561161003,
-        "fov": 1.3365071038314758
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.0913122150279051,
-          "pitch": -0.018797568267672204,
-          "rotation": 0,
-          "target": "23-student-lunch-area--breakroom"
-        },
-        {
-          "yaw": 1.5880787571082635,
-          "pitch": -0.01020003544982373,
+          "yaw": 1.5886790117147633,
+          "pitch": -0.02386876704322738,
           "rotation": 0,
           "target": "20-cosmetology-core-entrance--manicurist-core-entrance"
         },
         {
-          "yaw": -2.5398727850995115,
-          "pitch": 0.02450608540383925,
+          "yaw": -2.559631857477946,
+          "pitch": -0.026294646994646342,
           "rotation": 0,
           "target": "22-avanti-breakroom"
+        },
+        {
+          "yaw": -0.008575597083897435,
+          "pitch": -0.009833819343839423,
+          "rotation": 0,
+          "target": "23-student-lunch-area--breakroom"
         }
       ],
       "infoHotspots": []
@@ -1154,14 +1203,14 @@ var APP_DATA = {
       ],
       "faceSize": 2048,
       "initialViewParameters": {
-        "yaw": -0.35085204898567035,
-        "pitch": -0.1545659775156487,
-        "fov": 1.3365071038314758
+        "yaw": -0.524664068044558,
+        "pitch": -0.23669992942213014,
+        "fov": 1.0841904824255306
       },
       "linkHotspots": [
         {
-          "yaw": 2.383908685970619,
-          "pitch": 0.022468413901597373,
+          "yaw": 2.3903890483137387,
+          "pitch": -0.012983448763407068,
           "rotation": 0,
           "target": "21-student-hallway"
         }
@@ -1196,20 +1245,20 @@ var APP_DATA = {
       ],
       "faceSize": 3631.5,
       "initialViewParameters": {
-        "yaw": -0.5926837679280368,
-        "pitch": 0.1865668970257648,
-        "fov": 1.3365071038314758
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -0.10828730348711346,
-          "pitch": -0.027496934158099506,
+          "yaw": -0.1175668275996209,
+          "pitch": -0.037517182935580706,
           "rotation": 0,
           "target": "21-student-hallway"
         },
         {
-          "yaw": -3.0872147460630064,
-          "pitch": -0.013183251028479503,
+          "yaw": -3.066546790705056,
+          "pitch": -0.028733754103303255,
           "rotation": 0,
           "target": "0-welcome-area"
         }
@@ -1217,11 +1266,11 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Paul Mitchell School Modesto 360 Virtual Tour",
+  "name": "Project Title",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": true,
+    "fullscreenButton": false,
     "viewControlButtons": false
   }
 };
