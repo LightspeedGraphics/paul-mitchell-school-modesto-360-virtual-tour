@@ -1080,34 +1080,34 @@ var APP_DATA = {
       ],
       "faceSize": 2571.5,
       "initialViewParameters": {
-        "yaw": -1.5619281718160138,
-        "pitch": -0.006476620368832897,
+        "yaw": -1.5624617932846263,
+        "pitch": 0.008808203701665462,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": -1.5619281718160138,
-          "pitch": -0.006476620368832897,
+          "yaw": -1.5715275444522945,
+          "pitch": -0.02530900262895841,
           "rotation": 0,
           "target": "21-student-hallway"
         },
         {
-          "yaw": 1.5479384323031775,
-          "pitch": -0.030470254893797843,
+          "yaw": 1.5538908266570495,
+          "pitch": -0.03447176320876366,
           "rotation": 0,
           "target": "11-south-east-hallway-esthetician-entrance"
         }
       ],
       "infoHotspots": [
         {
-          "yaw": -0.5270263301491838,
-          "pitch": 0.00472387269261354,
+          "yaw": -0.5307438677529568,
+          "pitch": -0.00161202221967649,
           "title": "Manicuring Classroom",
           "text": "In the Manicuring Classroom, students learn nail artistry from base to tip. You’ll see stations equipped for manicures, pedicures, gel and acrylic work, nail art, hand care, sanitizing stations, and retail nail-care displays. It’s a clinical but creative environment where precision meets design."
         },
         {
-          "yaw": 0.6124302050569526,
-          "pitch": 0.00044475177317337966,
+          "yaw": 0.6188340507045069,
+          "pitch": -1.4555006089267408e-9,
           "title": "Cosmetology Classroom",
           "text": "This is the main hub of a student’s journey — the Cosmetology Classroom. Here, future professionals train in cutting, styling, chemical services (color, texture), haircutting theory, and more. Every station includes mirrors, styling tools, product back-bars, and work surfaces. Instructors circulate to coach, demo, and correct technique."
         }
